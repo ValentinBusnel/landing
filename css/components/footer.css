@@ -1,0 +1,31 @@
+.footer {
+  background: rgb(34, 34, 34);
+  height: auto;
+  width: 100vw;
+  padding: 50px 0;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .container a {
+  font-size: 50px;
+  margin: 0px 10px;
+  color: #1EDD88;
+  transition: 0.5s ease-in-out;
+}
+
+.footer .container a:hover {
+  transform: translateY(-10px);
+  color: #1edd87b0;
+  transition: 0.3s ease-in-out;
+}
+
+
+.footer h4{
+  color: rgb(131, 131, 131);
+  text-align: center;
+}
